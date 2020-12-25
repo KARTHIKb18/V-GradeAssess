@@ -1,0 +1,139 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background: url("log0.jpg") no-repeat;
+    image-rendering: auto;
+    background-size: cover;
+
+
+    
+    
+    
+}
+.login-box{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke ;
+}
+.login-box h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid rgb(130, 138, 167);
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid rgb(169, 141, 221);
+}
+.text-box{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid rgb(169, 141, 221);
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    float: left;
+    font-size: 18px;
+    color: whitesmoke;
+    width: auto;
+    margin: 0 10px;
+}
+.text-box i{
+    width: auto;
+    float: left;
+    text-align: center;
+}
+.text-box input{
+    border: none;
+    outline: none;
+    background: none;
+    float: left;
+    font-size: 18px;
+    color: whitesmoke;
+    width: auto ;
+    margin: 0 10px;
+}
+
+
+
+.btn{
+    height: 50px;
+    width: 100%;
+    background:none;
+    margin: 20px;
+    float: left;
+    border:0px;
+    color:whitesmoke;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.8s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #99a3a8  inset;
+
+    background: none;
+    text-align: center; 
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+    margin: 12px 0;
+    font-size: 18px;
+    border: 2px solid rgba(245, 245, 245, 0.63);
+}
+.btn:hover{
+    box-shadow:100%  #b0def5 inset;
+
+
+    background: rgb(147, 154, 168);
+}
+.regbox-txt{
+    color: antiquewhite;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    
+}
+.regis-btn{
+    height: 30px;
+   margin-top: auto;
+   margin-left: auto;
+    background:none;
+    
+    float: left;
+    
+    color:darkcyan;
+    
+   
+
+   
+    cursor: pointer;
+    
+    font-size: 18px;
+    
+
+}
+.regis-btn:hover{
+    box-shadow:100%  #b0def5 inset;
+
+
+    background: rgb(147, 154, 168);
+}
+

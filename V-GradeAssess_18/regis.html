@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-GradeAssess | Register</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="regis.css">
+</head>
+
+
+    <body>
+    
+<div class="container register">
+                <div class="row">
+                    <div class="col-md-3 register-left">
+                        <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                        <h3>Hey!</h3>
+                        <p>You're just 30 seconds away from making a wise decision.</p>
+                        <p>Alredy have an account?</p>
+                        <form action="log.html">
+                        <input type="submit" name="Login"  value="Login"/>
+                        </form>
+                        <br/>
+                       
+                    </div>
+                    <div class="col-md-9 register-right">
+                        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <h3 class="register-heading">Register as a student</h3>
+                                <div class="row register-form">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="First Name " value="" required/>
+                                        </div>
+
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" placeholder="Last Name " value="" required/>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" id="password" placeholder="Password " value="" required/>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" oninput="check(this)" id="password" placeholder="Confirm Password "  required/>
+                                         
+                                            <script language='javascript' type='text/javascript'>
+                                                function check(input) {
+                                                    if (input.value != document.getElementById('password').value) {
+                                                        input.setCustomValidity('enterd passwords must match.');
+                                                    } else {
+                                                      
+                                                        input.setCustomValidity('');
+                                                    }
+                                                }
+                                            </script> 
+                                        
+
+
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="maxl">
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="Male" checked>
+                                                    <span> Male </span> 
+                                                </label>
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="Female">
+                                                    <span>Female </span> 
+                                                </label>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Your Email id " value="" required/>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="tel" class="form-control" name="Phone" class="form-control" placeholder="Phone Number" value="" maxlength="10" required/>
+                                        </div>
+                                      
+                                        <div class="form-group">
+                                            <input type="tel" class="form-control" name="Age" placeholder="Enter your age" value="" maxlength="2" />
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Enter your address" value="" />
+                                        </div>
+
+                                        <input type="submit" class="btnRegister"  value="Register"/>
+                                    </div>
+                                </div>
+                            </div>
+                            
+     
+    </body>
+</html>            
